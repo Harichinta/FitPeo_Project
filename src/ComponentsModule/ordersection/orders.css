@@ -52,3 +52,11 @@
     margin-top: 1rem;
     margin-bottom: 6px;
 }
+
+
+/* @media (max-width: 768px) {
+.orderscontainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 20px;
+}} */

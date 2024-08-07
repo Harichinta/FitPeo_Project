@@ -60,7 +60,7 @@
   }
 
 
-  @media (max-width: 768px) {
+  @media (max-width: 1010px) {
     .navbar-nav li{
       border-radius: 0;
       margin-left: 0;

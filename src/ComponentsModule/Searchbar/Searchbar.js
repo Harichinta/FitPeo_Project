@@ -38,10 +38,10 @@ function Searchbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li><a href="mailto:harivenkateshjb12@gmail.com"><i className="bi bi-envelope"></i><span className='d-block d-md-none textspan'>harivenkateshjb12@gmail.com</span></a></li>
-              <li><a href="#"><i className="bi bi-gear"></i> <span className='d-block d-md-none textspan'>settings</span></a></li>
-              <li><a href="#"><i className="bi bi-bell-fill"></i> <span className='d-block d-md-none textspan'>notifications</span></a></li>
-              <li><a><i className="bi bi-person-fill"></i> <span className='d-block d-md-none textspan'>Account</span></a></li>
+              <li><a href="mailto:harivenkateshjb12@gmail.com"><i className="bi bi-envelope"></i><span className='d-block d-lg-none textspan'>harivenkateshjb12@gmail.com</span></a></li>
+              <li><a href="#"><i className="bi bi-gear"></i> <span className='d-block d-lg-none textspan'>settings</span></a></li>
+              <li><a href="#"><i className="bi bi-bell-fill"></i> <span className='d-block d-lg-none textspan'>notifications</span></a></li>
+              <li><a><i className="bi bi-person-fill"></i> <span className='d-block d-lg-none textspan'>Account</span></a></li>
             </ul>
           </div>
 

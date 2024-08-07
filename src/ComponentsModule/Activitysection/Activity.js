@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Chart from 'react-apexcharts';
 import './activity.css'
 function Activity() {
@@ -85,7 +85,6 @@ function Activity() {
                     data: [4000, 10000, 5000, 4000, 7000, 7000, 6000, 5000, 2000, 7000, 6000, 12000, 15000, 11000, 7000, 6000, 5000, 7000, 11000, 7000, 6000]
                 }],
                 options: {
-                    // Update options if needed
                     xaxis: {
                         categories: ['5','','9','','11','','13','','15','','17', '','19','','21','','23','','25','','27'],
                     },
@@ -115,6 +114,30 @@ function Activity() {
             });
         }
     };
+    
+    // useEffect(() => {
+    //     const handleResize = () => {
+    //         setChartData((prevState) => ({
+    //             ...prevState,
+    //             options: {
+    //                 ...prevState.options,
+    //                 plotOptions: {
+    //                     ...prevState.options.plotOptions,
+    //                     bar: {
+    //                         ...prevState.options.plotOptions.bar,
+    //                         borderRadius: window.innerWidth <= 1010 && 0,
+    //                     },
+    //                 },
+    //             }
+    //         }));
+    //     };
+
+    //     window.addEventListener('resize', handleResize);
+
+    //     return () => {
+    //         window.removeEventListener('resize', handleResize);
+    //     };
+    // }, []);
 
     return (
         <div className='activityconain' style={{ position: 'relative', backgroundColor: '#191e23', padding: '10px 16px', borderRadius: '10px'}}>
