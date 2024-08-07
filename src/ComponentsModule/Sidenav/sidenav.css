@@ -1,0 +1,50 @@
+.sidenav {
+    background-color: #191e23;
+    height: 100%;
+    color: #ffffff;
+  }
+
+  .logosection{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo{
+    width: 100%;
+    margin-top: 1rem;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  .logo .bi{
+    font-size: 25px;
+  }
+
+  .acitvetab{
+    color: rgb(46, 122, 235);
+    border-left: 3px solid;
+  }
+
+
+  @media (max-width: 768px) {
+    .sidenav{
+       position: absolute;
+       top:0;
+       left: -10px;     
+       width: 100px;
+       z-index: 10001;
+    }
+  }
+
+
+  /* .logo.acitvetab {
+    background-color: #ddd; 
+    border-radius: 5px;  
+  } */

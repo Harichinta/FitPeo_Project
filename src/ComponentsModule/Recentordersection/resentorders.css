@@ -1,0 +1,59 @@
+
+.recentordersmain{
+    background-color: #191e23;
+    border-radius: 5px;
+    padding: 14px;
+    overflow-x: scroll;
+}
+
+.recentordersmain::-webkit-scrollbar {
+    width: 6px; 
+    height: 6px;
+  }
+  
+  .recentordersmain::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 10px; 
+  }
+  
+
+.custom-table th, .custom-table td{
+    background-color: #191e23 !important;
+    color: #ffffff;
+    border-color: gray;
+}
+
+.orderpic{
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #ffffff;
+}
+
+.deliveredord, .cancelled{
+    border-radius: 20px;
+    padding:4px 10px;
+    font-weight: 600;
+   text-align: center;
+}
+
+.deliveredord{
+    background-color: rgba(15, 160, 114, 0.836);
+    color: rgba(28, 252, 181, 0.986);
+}
+.cancelled{
+    background-color: rgba(245, 93, 93, 0.559);
+    color: rgba(247, 152, 152, 0.914);
+}
+
+.custom-table th:last-child, .custom-table td:last-child{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+    .recentordersmain{
+        margin-top: 0.5rem;
+    }
+}

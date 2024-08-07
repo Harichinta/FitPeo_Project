@@ -1,0 +1,21 @@
+.dropselection {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        padding: 5px;
+        border-radius: 16px;
+        border: 1px solid #ccc;
+        background-color: #cccccc42;
+        color: #ffffff;
+}
+
+.dropselection option{
+    color: black;
+}
+
+
+@media (max-width: 768px) {
+    .activityconain{
+        margin-top: 0.5rem;
+    }
+}

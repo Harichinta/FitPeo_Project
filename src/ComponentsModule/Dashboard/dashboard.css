@@ -1,0 +1,24 @@
+.dashboardmain{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    padding: 14px;
+    padding-bottom: 2rem !important;
+}
+
+.comsection{
+    border-radius:6px;
+}
+
+
+.Dashboardhead{
+    margin-left: 4rem;
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    .Dashboardhead{
+        margin-left: 0.3rem;
+    }
+}
