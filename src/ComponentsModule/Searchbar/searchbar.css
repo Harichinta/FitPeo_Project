@@ -59,3 +59,21 @@
     margin-left: 16px;
   }
 
+
+  @media (max-width: 768px) {
+    .navbar-nav li{
+      border-radius: 0;
+      margin-left: 0;
+      padding: 10px 16px;      
+    }
+    .navbar-nav li a{
+      display: flex;
+      text-decoration: none;
+    }
+    .textspan{
+      margin-left: 10px;
+    }
+    .inputsearch{
+      width: 200px;
+    }
+  }
